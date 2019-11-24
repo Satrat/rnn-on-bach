@@ -1,3 +1,5 @@
+source activate magenta
+
 INPUT_DIRECTORY=./bach_xml
 SEQUENCES_TFRECORD=./bach_seq.tfrecord
 SEQUENCE_EXAMPLE_FOLDER=./bach_seq_ex
