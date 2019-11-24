@@ -2,6 +2,7 @@ source activate magenta
 
 echo "Generating MIDI track at" $1
 
+# generate a 4/4 8 bar phrase with a starting chord of C minor
 polyphony_rnn_generate \
 --run_dir=$1 --output_dir=$1 \
 --num_outputs=1 --num_steps=128 \
